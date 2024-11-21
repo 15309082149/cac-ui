@@ -1,0 +1,78 @@
+.btn1{
+    height:40px;
+    width:100px;
+    border: none;
+    border-radius: 10px;
+    background-color: #1677ff;
+    color:white;
+    cursor: pointer;
+    transition: .3s;
+    /* font-weight:600; */
+}
+.false:hover{
+    opacity: .8;
+}
+.false:active{
+    filter: brightness(0.7);
+}
+.primary{
+    background-color: #1677ff;
+}
+.danger{
+    background-color: #ff4d4f;
+}
+.success{
+    background-color: #00b578;
+}
+.warning{
+    background-color: #ff8f1f;
+}
+.large{
+    height:50px;
+    width:120px;
+    font-size:14px;
+}
+.middle{
+    height:40px;
+    width:100px;
+    font-size:12px;
+}
+.small{
+    height:30px;
+    width:80px;
+    font-size:10px;
+}
+.circle{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+    align-items: center;
+}
+.grid1{
+    display: grid;
+    grid-template-rows:repeat(4,60px);
+    justify-items: center;
+    align-items: center;
+}
+.rows{
+    width:100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.true{
+    background-color: #f5f5f5;
+    color:#b8b8b8;
+    cursor:not-allowed;
+}
+.true:active{
+    background-color: #f5f5f5;
+}

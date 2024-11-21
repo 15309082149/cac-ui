@@ -1,0 +1,42 @@
+.ipt-true,.ipt-false{
+    border: 1px solid #d9d9d9;
+    height:35px;
+    outline:none;
+    width:90%;
+    transition: .6s;
+    border-radius: 5px;
+
+}
+.ipt-true:focus{
+    border: 1px solid #1677ff;
+    box-shadow: 1px 1px 1px 1px #e6f4ff;
+}
+.flex{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(3,60px);
+    justify-items: center;
+    align-items: center;
+}
+.flex1{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 60px;
+    justify-items: center;
+    align-items: center;
+}
+.ipt-small{
+    height:25px;
+}
+.ipt-middle{
+    height:35px;
+}
+.ipt-large{
+    height:45px;
+}
+.ipt-warning{
+    border: 1px solid #faad14;
+}
+.ipt-danger{
+    border: 1px solid #ff4d4f;
+}
